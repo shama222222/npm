@@ -15,7 +15,6 @@ except:
 	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
-def logo():
     clear = "\x1b[0m"
     colors = [35, 33, 36]
 
