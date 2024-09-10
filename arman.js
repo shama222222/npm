@@ -1,5 +1,4 @@
  os.system('clear')
-    else:
         if system() == 'Windows':
             os.system('cls')
             
