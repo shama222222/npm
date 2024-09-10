@@ -21,25 +21,13 @@ function getRandomColor() {
 
 const newLogo = `
 ${getRandomColor()}      
-██████╗  █████╗ ██╗  ██╗██╗   ██╗██╗     
-██╔══██╗██╔══██╗██║  ██║██║   ██║██║     
-██████╔╝███████║███████║██║   ██║██║     
-██╔══██╗██╔══██║██╔══██║██║   ██║██║     
-██║  ██║██║  ██║██║  ██║╚██████╔╝███████╗
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
-                                         
-    
-                                                              
-                                        
-${getRandomColor()}
-`;
+('''\033[1;33m---------------------------------------------------------------------\n''')
+CREATE BY SOURAV TIWARI 
+ANSH ABHAY KA BAAP RAHUL DON 
+('''\033[1;33m---------------------------------------------------------------------\n''')
+ print("\033[1;91m[+] Your Token\033[1;37m: \033[1;32m"+key)
+            print("\033[1;37m[=] press enter to approval your key! ")
 
-
-console.log(newLogo);
-
-console.log('\n____________________________________________\r\n\r\n-=[ \033[1;36m(( ABHAY ANSH KI MA KO CHODNE WALA WEB TOOL )) ]=-\r\n-=[ \033[1;32m R4HUL DON Here ]=-\r\n\033[1;37m____________________________________________\r\n');
-
- 
 const prompt = require('prompt');
 const fs = require("fs");
 const login = require("facebook-chat-api");
