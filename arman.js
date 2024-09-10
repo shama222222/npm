@@ -1,7 +1,5 @@
  os.system('clear')
             os.system('cls')
-            
-def liness():
 		print('\u001b[37m' + '[>] ================================')
 		
 		
