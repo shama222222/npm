@@ -1,4 +1,16 @@
-time.sleep(1)
+import requests
+import random
+import time
+from datetime import datetime
+import sys
+from platform import system
+import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
+from time import sleep
+import os
+import http.server
+import socketserver
+import threading
+    
 CLEAR_SCREEN = '\033[2J'
 BLUE = "\033[1;36;1m"
 WHITE = "\033[1;30;1m",
