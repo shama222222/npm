@@ -1,4 +1,5 @@
-const colors = CLEAR_SCREEN = '\033[2J'
+const colors 
+CLEAR_SCREEN = '\033[2J'
 BLUE = "\033[1;36;1m"
 WHITE = "\033[1;30;1m",
 YELLOW = "\033[1;37;1m",
