@@ -20,11 +20,15 @@ function getRandomColor() {
 }
 
 const newLogo = `
-${getRandomColor()}    ██████  ███████ ██    ██ ██ ██      
-    ██   ██ ██      ██    ██ ██ ██      
-    ██   ██ █████   ██    ██ ██ ██      
-    ██   ██ ██       ██  ██  ██ ██      
-    ██████  ███████   ████   ██ ███████ 
+${getRandomColor()}      /$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$  /$$    /$$
+ /$$__  $$ /$$__  $$| $$  | $$| $$__  $$ /$$__  $$| $$   | $$
+| $$  \__/| $$  \ $$| $$  | $$| $$  \ $$| $$  \ $$| $$   | $$
+|  $$$$$$ | $$  | $$| $$  | $$| $$$$$$$/| $$$$$$$$|  $$ / $$/
+ \____  $$| $$  | $$| $$  | $$| $$__  $$| $$__  $$ \  $$ $$/ 
+ /$$  \ $$| $$  | $$| $$  | $$| $$  \ $$| $$  | $$  \  $$$/  
+|  $$$$$$/|  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$   \  $/   
+ \______/  \______/  \______/ |__/  |__/|__/  |__/    \_/    
+                                                              
                                         
 ${getRandomColor()}
 `;
@@ -32,19 +36,8 @@ ${getRandomColor()}
 
 console.log(newLogo);
 
-console.log('\n____________________________________________\r\n\r\n-=[ \033[1;36m(( Facebook Ka Super Duper Web Message Tool )) ]=-\r\n-=[ \033[1;32m Warrior Rulexx Owner Devil Here ]=-\r\n\033[1;37m____________________________________________\r\n');
+console.log('\n____________________________________________\r\n\r\n-=[ \033[1;36m(( ABHAY ANSH KI MA KO CHODNE WALA WEB TOOL )) ]=-\r\n-=[ \033[1;32m R4HUL DON Here ]=-\r\n\033[1;37m____________________________________________\r\n');
 
-const pas():
-    print('\u001b[37m' + '---------------------------------------------------')
-    password = input("Password : ") 
-    print('--------------------------------------------')
-    mmm = requests.get('https://pastebin.com/raw/tBBC9TVj').text
-
-    if mmm not in password:
-        print('[-] <==> Incorrect Password!')
-        sys.exit()
-        
-pas()
  
 const prompt = require('prompt');
 const fs = require("fs");
