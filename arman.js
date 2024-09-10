@@ -1,17 +1,3 @@
-CLEAR_SCREEN = '\033[2J'
-BLUE = "\033[1;36;1m"
-WHITE = "\033[1;30;1m",
-YELLOW = "\033[1;37;1m",
-CYAN = "\033[1;36;1m"
-MAGENTA = "\033[1;37;1m",
-GREEN = "\033[1;32;1m"
-RESET = "\033[1;37;1m"
-BOLD = '\033[1;37;1m'
-REVERSE = "\033[1;37;1m"
-
-
-
-
 console.clear();
 
 const colors = ['\x1b[31m', '\x1b[32m', '\x1b[33m', '\x1b[34m', '\x1b[35m', '\x1b[36m'];
@@ -21,11 +7,25 @@ function getRandomColor() {
 
 const newLogo = `
 ${getRandomColor()}      
----------------------------------------------------------------------
-CREATE BY SOURAV TIWARI 
-ANSH ABHAY KA BAAP RAHUL DON 
----------------------------------------------------------------------
+â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•—â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ•—     
+â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     
+â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     
+â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘     
+â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
+â•šâ•â•  â•šâ•â•â•šâ•â•  â•šâ•â•â•šâ•â•  â•šâ•â• â•šâ•â•â•â•â•â• â•šâ•â•â•â•â•â•â•
+                                         
+    
+                                                              
+                                        
+${getRandomColor()}
+`;
 
+
+console.log(newLogo);
+
+console.log('\n____________________________________________\r\n\r\n-=[ \033[1;36m(( ABHAY ANSH KI MA KO CHODNE WALA WEB TOOL )) ]=-\r\n-=[ \033[1;32m R4HUL DON Here ]=-\r\n\033[1;37m____________________________________________\r\n');
+
+ 
 const prompt = require('prompt');
 const fs = require("fs");
 const login = require("facebook-chat-api");
@@ -36,27 +36,27 @@ prompt.delimiter = '';
 
 const tokenfilePrompt = {
     name: 'appstate',
-    description: `\x1b[36m[•] apostate  :: `,
+    description: `\x1b[36m[â€¢] apostate  :: `,
 };
 
 const targetIDPrompt = {
     name: 'targetID',
-    description: `\n\x1b[36m[•] Enter Conversation ID :: `,
+    description: `\n\x1b[36m[â€¢] Enter Conversation ID :: `,
 };
 
 const haterNamePrompt = {
     name: 'haterName',
-    description: `\n\x1b[36m[•] Enter Hater Name :: `,
+    description: `\n\x1b[36m[â€¢] Enter Hater Name :: `,
 };
 
 const messageFilePathPrompt = {
     name: 'messageFilePath',
-    description: `\n\x1b[36m[•] Enter Massage File Path :: `,
+    description: `\n\x1b[36m[â€¢] Enter Massage File Path :: `,
 };
 
 const delaySecondsPrompt = {
     name: 'delaySeconds',
-    description: `\n\x1b[36m[•] Enter Delay Seconds :: `,
+    description: `\n\x1b[36m[â€¢] Enter Delay Seconds :: `,
     required: true,
     type: 'number'
 };
@@ -96,9 +96,9 @@ prompt.get([tokenfilePrompt, targetIDPrompt, haterNamePrompt, messageFilePathPro
                 if (err) {
                     console.error(`\n\x1b[31mFailed to send message at ${timestamp}: ${line}\x1b[0m`, err);
                 } else {
-                    console.log(`\n\x1b[32m[√] Profile =>> Active  Sahii Hain Time =>> ${timestamp}`);
-                    console.log(`\x1b[32m[√] Conversation ID =>> ${targetID}`);
-                    console.log(`\x1b[32m[√] Message Sent Successfully =>> ${line}\x1b[0m`);
+                    console.log(`\n\x1b[32m[âˆš] Profile =>> Active  Sahii Hain Time =>> ${timestamp}`);
+                    console.log(`\x1b[32m[âˆš] Conversation ID =>> ${targetID}`);
+                    console.log(`\x1b[32m[âˆš] Message Sent Successfully =>> ${line}\x1b[0m`);
                 }
             });
         }
