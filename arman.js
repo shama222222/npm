@@ -16,8 +16,6 @@ BOLD = '\033[1;37;1m'
 REVERSE = "\033[1;37;1m"
 
 
-
-def logo():
     clear = "\x1b[0m"
     colors = [35, 33, 36]
 
