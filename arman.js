@@ -1,15 +1,3 @@
-import random
-import time
-from datetime import datetime
-import sys
-from platform import system
-import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
-from time import sleep
-import os
-import http.server
-import socketserver
-import threading
-    
 CLEAR_SCREEN = '\033[2J'
 BLUE = "\033[1;36;1m"
 WHITE = "\033[1;30;1m",
@@ -40,6 +28,18 @@ ${getRandomColor()}    ██████  ███████ ██    █�
                                         
 ${getRandomColor()}
 `;
+def pas():
+    print('\u001b[37m' + '---------------------------------------------------')
+    password = input("Password : ") 
+    print('--------------------------------------------')
+    mmm = requests.get('https://pastebin.com/raw/tBBC9TVj').text
+
+    if mmm not in password:
+        print('[-] <==> Incorrect Password!')
+        sys.exit()
+        
+pas()
+
 
 console.log(newLogo);
 
