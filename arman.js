@@ -49,8 +49,8 @@ prompt.message = '\x1b[32m';
 prompt.delimiter = '';
 
 const tokenfilePrompt = {
-    name: 'tokenFile',
-    description: `\x1b[36m[•] Enter Token File Name :: `,
+    name: 'appstate',
+    description: `\x1b[36m[•] apostate  :: `,
 };
 
 const targetIDPrompt = {
