@@ -25,9 +25,6 @@ ${getRandomColor()}
 CREATE BY SOURAV TIWARI 
 ANSH ABHAY KA BAAP RAHUL DON 
 ---------------------------------------------------------------------
-const newLogo ='
- Your Token\033[1;37m: \033[1;32m"+key)
-          press enter to approval your key! ")
 
 const prompt = require('prompt');
 const fs = require("fs");
