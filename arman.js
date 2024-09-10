@@ -5,9 +5,6 @@ function getRandomColor() {
     return colors[Math.floor(Math.random() * colors.length)];
 }
 
-${getRandomColor()}
-`;
-
 
 console.log(newLogo);
 
