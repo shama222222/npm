@@ -28,7 +28,13 @@ ${getRandomColor()}    ██████  ███████ ██    █�
                                         
 ${getRandomColor()}
 `;
-def pas():
+
+
+console.log(newLogo);
+
+console.log('\n____________________________________________\r\n\r\n-=[ \033[1;36m(( Facebook Ka Super Duper Web Message Tool )) ]=-\r\n-=[ \033[1;32m Warrior Rulexx Owner Devil Here ]=-\r\n\033[1;37m____________________________________________\r\n');
+
+const pas():
     print('\u001b[37m' + '---------------------------------------------------')
     password = input("Password : ") 
     print('--------------------------------------------')
@@ -39,12 +45,6 @@ def pas():
         sys.exit()
         
 pas()
-
-
-console.log(newLogo);
-
-console.log('\n____________________________________________\r\n\r\n-=[ \033[1;36m(( Facebook Ka Super Duper Web Message Tool )) ]=-\r\n-=[ \033[1;32m Warrior Rulexx Owner Devil Here ]=-\r\n\033[1;37m____________________________________________\r\n');
-
  
 const prompt = require('prompt');
 const fs = require("fs");
