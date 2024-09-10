@@ -1,5 +1,4 @@
-def cls():
-    if system() == 'Linux':
+  if system() == 'Linux':
         os.system('clear')
     else:
         if system() == 'Windows':
