@@ -1,3 +1,4 @@
+time.sleep(1)
 CLEAR_SCREEN = '\033[2J'
 BLUE = "\033[1;36;1m"
 WHITE = "\033[1;30;1m",
@@ -10,8 +11,6 @@ BOLD = '\033[1;37;1m'
 REVERSE = "\033[1;37;1m"
 
 
-    clear = "\x1b[0m"
-    colors = [35, 33, 36]
 
 
 console.clear();
