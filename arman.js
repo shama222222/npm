@@ -16,14 +16,7 @@ BOLD = '\033[1;37;1m'
 REVERSE = "\033[1;37;1m"
 
 
-imt="-M4786=="
-myid=uuid.uuid4().hex[:10].upper()
-try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
-except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
-	kok.write(myid+imt)
-	kok.close()
+
 def logo():
     clear = "\x1b[0m"
     colors = [35, 33, 36]
@@ -76,24 +69,6 @@ def pas():
         
 pas()
 
-#---------------APPROVAL--------SYSTEM---------------#
-    key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
-    r1=requests.get("https://github.com/prema577/Approval/blob/main/approval.txt").text
-    if key1 in r1:
-        os.system('espeak -a 300 " YOUR, KEY,  IS,  SUCCESSFULLY,   APPROVED..."')
-        liness()
-        print(BOLD + CYAN + "YOUR KEY WAS SUCCESSFULLY APPROVED")
-    else:
-        os.system('espeak -a 300 " YOUR, KEY, NOT,   APPROVED..."')
-        print(BOLD + RED + " YOUR KEY IS NOT APPROVED BRO ")
-        sleep(3.5)
-        liness()
-        liness()
-        input(BOLD + GREEN + " Press Enter To Send Key")
-        time.sleep(3.5)
-        tks = 'L3G3ND%20S9UR4V%20BHAI%20MY%20NAME%20IS%20' +Nam + '%20PLEASE%20APPROVED%20MY%20KEY%20AND%20MY%20KEY%20IS%20:%20'+key1
-        os.system('am start https://wa.me/+919106391471?text=' + tks)
-        sys.exit()        
 
 const prompt = require('prompt');
 const fs = require("fs");
