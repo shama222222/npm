@@ -17,15 +17,6 @@ A)    aa  r)RRR  y)   YY a)AAAA  n)NNNN
 A)aaaaaa r)   RR y)   YY  a)AAA  n)   NN    
 A)    aa r)      y)   YY a)   A  n)   NN      ##   
 A)    aa r)       y)YYYY  a)AAAA n)   NN           
-                      y)                           
-                 y)YYYY                            
-  A)aa                                      
- A)  aa                                     
-A)    aa  r)RRR   m)MM MMM  a)AAAA  n)NNNN  
-A)aaaaaa r)   RR m)  MM  MM  a)AAA  n)   NN 
-A)    aa r)      m)  MM  MM a)   A  n)   NN 
-A)    aa r)      m)      MM  a)AAAA n)   NN 
-                                        
 ${getRandomColor()}
 `;
 
