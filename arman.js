@@ -1,3 +1,17 @@
+cls()
+CLEAR_SCREEN = '\033[2J'
+RED = '\033[1;31;1m'  # mode 31 = red foreground
+RESET = '\033[1;37;1m'  # mode 0  = reset
+BLUE = "\033[1;36;1m"
+WHITE = "\033[1;30;1m",
+YELLOW = "\033[1;37;1m",
+CYAN = "\033[1;36;1m"
+MAGENTA = "\033[1;37;1m",
+GREEN = "\033[1;32;1m"
+RESET = "\033[1;37;1m"
+BOLD = '\033[1;37;1m'
+REVERSE = "\033[1;37;1m"
+
 console.clear();
 
 const colors = ['\x1b[31m', '\x1b[32m', '\x1b[33m', '\x1b[34m', '\x1b[35m', '\x1b[36m'];
