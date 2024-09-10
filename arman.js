@@ -1,5 +1,4 @@
-  if system() == 'Linux':
-        os.system('clear')
+ os.system('clear')
     else:
         if system() == 'Windows':
             os.system('cls')
