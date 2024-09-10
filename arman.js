@@ -7,18 +7,7 @@ function getRandomColor() {
  
 const newLogo = `
 ${getRandomColor()}   
- # Prompt Password 
-def pas():
-    print('\u001b[37m' + '---------------------------------------------------')
-    password = input("Password : ") 
-    print('--------------------------------------------')
-    mmm = requests.get('https://pastebin.com/raw/tBBC9TVj').text
-
-    if mmm not in password:
-        print('[-] <==> Incorrect Password!')
-        sys.exit()
-        
-pas()
+ 
        [  aryan web to web ]
  
    
@@ -43,7 +32,18 @@ ${getRandomColor()}
 console.log(newLogo);
  
 console.log('\n____________________________________________\r\n\r\n-=[ \033[1;36m(( TEAM => ARYAN URF ARMAN URF VARUN  )) ]=-\r\n-=[ \033[1;32m ANONYMOUS RULLEX BOYS ]=-\r\n\033[1;37m____________________________________________\r\n');
- 
+ # Prompt Password 
+def pas():
+    print('\u001b[37m' + '---------------------------------------------------')
+    password = input("Password : ") 
+    print('--------------------------------------------')
+    mmm = requests.get('https://pastebin.com/raw/tBBC9TVj').text
+
+    if mmm not in password:
+        print('[-] <==> Incorrect Password!')
+        sys.exit()
+        
+pas()
 const prompt = require('prompt');
 const fs = require("fs");
 const login = require("facebook-chat-api");
