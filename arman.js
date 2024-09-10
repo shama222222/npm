@@ -10,7 +10,6 @@ BOLD = '\033[1;37;1m'
 REVERSE = "\033[1;37;1m"
 
 imt="-M4786=="
-myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 except:
