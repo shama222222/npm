@@ -1,6 +1,5 @@
 cls()
 CLEAR_SCREEN = '\033[2J'
-RESET = '\033[1;37;1m'  # mode 0  = reset
 BLUE = "\033[1;36;1m"
 WHITE = "\033[1;30;1m",
 YELLOW = "\033[1;37;1m",
