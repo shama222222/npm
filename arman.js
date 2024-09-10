@@ -1,5 +1,4 @@
  os.system('clear')
-        if system() == 'Windows':
             os.system('cls')
             
 def liness():
